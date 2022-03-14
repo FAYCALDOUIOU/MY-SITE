@@ -1,0 +1,331 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.logo{
+	width: 100px;
+	height:50px;
+	right: 30px ;
+    float: left;
+    image-resolution: auto;
+    size-adjust: auto;
+    padding: 5px 14px ;
+}
+.bg{
+    width: 100%;
+	height: 700px; 
+    size-adjust:auto;
+}
+*{
+    margin: 20;
+    padding:0;
+}
+
+
+nav{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+
+     
+}
+nav p{
+    font-family: arial ;
+    color: black;
+    font-size: 22px;
+    line-height: 55px;
+    float: right;
+    padding:-2px 20px ;
+
+    
+
+}
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    float: left;
+    list-style: none ;
+    position: relative;
+    padding: 0px 14px ;
+    top: -5px;
+}
+nav ul li a{
+    display: block;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: black;
+    font-size: 35px;
+    padding: 0px 14px ;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color:rgb(129, 191, 212) ;
+    border-radius: 5px;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px ;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li {
+    width: 190px;
+    border-radius: 4px ;   
+}
+
+nav ul li ul li a{
+    padding:5px 14px;
+}
+nav ul li ul li a:hover {
+   background-color:rgb(129, 191, 212) ;
+}
+.container{
+    background-image: url(../img/bg2.jpg);
+    width: 100%;
+    padding: 210px 0px;
+    margin: 8px 0px 0px 0px;
+
+}
+.cont{
+    padding: 50px;
+}
+.masthead-subheading{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.masthead-heading{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 11px; 
+    position: absolute;
+    right: 45.5% ;
+    
+}
+.btn:hover{
+    background-color:rgb(129, 191, 212) ;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 2px solid black;
+    transition-duration: 0.4s;
+}
+
+
+.sct{
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.cn{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gr{
+    font-family: Monospace, 'Lucida Console';
+    text-transform: uppercase;
+    font-size: 30px ;
+}
+.pgr{
+   font-family: 'Times New Roman', Times, serif
+}
+.lft{
+    width: 50%;
+    min-height: 400px;
+    background-image: url(../img/gr.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+}
+.lft1{
+    width: 50%;
+    min-height: 400px;
+    background-image: url(../img/cod.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.lft2{
+    width: 50%;
+    min-height: 400px;
+    background-image: url(../img/mg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.rgt{
+    width: 50%;
+    min-height: 400px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btnn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 11px; 
+}
+.btnn:hover{
+    background-color:rgb(129, 191, 212) ;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 2px solid black;
+    transition-duration: 0.4s;
+}
+.srve{
+    min-height: 5vh;
+}
+.srv{
+    padding:35px;
+    font-family: 'Segoe UI', Tahoma, Geneva , Verdana, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+    letter-spacing: 5px;
+
+ 
+}
+.sctt{
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+
+}
+.lftabt{
+    width: 50%;
+    min-height: 400px;
+    background-image: url(../img/abt.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    float:left ;
+    
+}
+.rgtabt{
+    width: 65%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.grabt{
+    font-family: Monospace, 'Lucida Console';
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pgrabt{
+    font-size: large;
+    font-family:sans-serif italic 2em 'Open Sans' ;
+}
+.icone{
+    color: black;
+    font-size: 30px ;
+    text-decoration: none; 
+    margin: 0 10px;
+    transition: all 0.2s ;
+}
+.icone:hover{
+    color: #4CAF50;
+    font-size: 35px;
+}
+.ict{
+    color: black;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.t{
+    color: black;
+    font-size: 22px;
+}
+.up{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    bottom: 40px;
+    font-size: 50px;
+    text-decoration: none;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px ;
+    transition: all 0.2s ;
+}
+.up:hover{
+    font-size: 71px ;
+    height: 70px;
+    width: 70px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.pdf{
+    color:white;
+    background-color: black;
+    font-size: 20px ;
+    text-decoration: none; 
+    border-radius: 8px;
+    margin: 20px;
+
+    transition: all 0.2s ;
+}
+.pdf:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 22px;
+}
